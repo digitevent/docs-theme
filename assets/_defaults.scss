@@ -34,6 +34,9 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
   --color-link: #0035ec;
   --color-visited-link: #0035ec;
 
+  --background-color-menu-pane: rgb(250, 250, 250);
+  --border-color-menu-pane: hsl(214.3, 31.8%, 80%);
+
   --icon-filter: none;
 
   --gray-100: #f8f9fa;
@@ -63,6 +66,9 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
   --color-visited-link: #b88dff;
 
   --icon-filter: brightness(0) invert(1);
+
+  --background-color-menu-pane: #252525;
+  --border-color-menu-pane: rgba(0, 0, 0, 0.5);
 
   --gray-100: #494e54;
   --gray-200: #5c6165;

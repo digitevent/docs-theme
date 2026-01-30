@@ -1,0 +1,14 @@
+<nav class="book-navbar">
+    <div class="book-navbar-content">
+        <div class="book-navbar-section-brand">{{ partial "docs/brand" . }}</div>
+        <div class="book-navbar-section-search">{{ partial "docs/search" . }}</div>
+        <div class="book-navbar-right">
+            <div class="book-navbar-section-languages">
+                {{ if hugo.IsMultilingual }}
+                {{ partial "docs/languages" . }}
+                {{ end }}
+            </div>
+            {{ partial "docs/inject/navbar-right" . }}
+        </div>
+    </div>
+</nav>

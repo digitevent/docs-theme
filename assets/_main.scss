@@ -416,6 +416,7 @@ body[dir="rtl"] .book-menu {
 
   #toc-control:checked~main {
     .book-header aside {
+      margin-top: $padding-16;
       display: block;
     }
   }
